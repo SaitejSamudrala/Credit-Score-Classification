@@ -12,13 +12,16 @@ After creation run the following command to activate the environment.
 `conda activate <name_of_your_env>`
 
 To install all the required dependencies run the following command.
+
 `conda install --file requirements.txt`
 
 ## Note:
 To add a new package to the project use the command.
-    `conda install package_name`
+
+`conda install package_name`
 
 After adding the package run the following command to append the new package to "**requirements.txt**".
+
 `conda list --export | grep -v '^#' > requirements.txt`
 
 
